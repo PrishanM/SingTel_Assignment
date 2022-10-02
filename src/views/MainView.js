@@ -4,7 +4,7 @@ import ButtonComponent from "../components/ButtonComponent";
 import dimensions from "../styles/dimensions";
 import { appColors } from "../styles/colors";
 import NumberCard from "../components/NumberCard";
-import { generateRandomNumbers, getListNumbers } from "../utils/utilities";
+import { generateRandomNumbers, getListNumbers } from "../utils/Utilities";
 import { Actions } from "react-native-router-flux";
 
 const NUMBER_OF_CARDS = 12;
@@ -22,7 +22,7 @@ const MainView = () => {
   },[]);
 
   useEffect(() => {
-    if(successfulFlips === 6){
+    if(successfulFlips === NUMBER_OF_CARDS/2){
       showSuccessAlert();
     }
   }, [successfulFlips]);

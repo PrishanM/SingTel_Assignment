@@ -1,5 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Button Component renders correctly 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EB736D",
+      "borderColor": "#EB736D",
+      "borderRadius": 8,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "height": 54,
+      "justifyContent": "center",
+      "marginVertical": 15,
+      "opacity": 1,
+      "width": "65%",
+    }
+  }
+>
+  
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
 exports[`renders correctly 1`] = `
 <View
   accessibilityState={

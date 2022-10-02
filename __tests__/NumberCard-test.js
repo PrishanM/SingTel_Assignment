@@ -1,8 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import NumberCard from "../src/components/NumberCard";
+import { describe } from "@jest/globals";
 
-test('renders correctly', () => {
-  const tree = renderer.create(<NumberCard />).toJSON();
-  expect(tree).toMatchSnapshot();
+describe('Number Card',()=>{
+  test('renders correctly', () => {
+    const tree = renderer.create(<NumberCard />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 })
